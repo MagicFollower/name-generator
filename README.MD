@@ -6,7 +6,20 @@
 
 
 
+#### 如何使用？
 
+`getName(): String`
+
+`getName(boolean female): String`
+
+`getName(boolean female, NameFormat nameFormat): String`
+
+- `NameGenerator.NameFormat.COMMON` 
+  - "Malinda Elizabeth"
+- `NameGenerator.NameFormat.LOWERCASE` 
+  - "malinda elizabeth"
+- `NameGenerator.NameFormat.UPPERCASE` 
+  - "MALINDA ELIZABETH"
 
 
 
