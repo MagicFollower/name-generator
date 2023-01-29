@@ -35,7 +35,5 @@
 
 #### 建库寄语：一定要开心😊
 
-> 如果你觉得名称不够随机，词库不够丰富，你懂得🚀
-
  ![](https://github.com/MagicFollower/NameGenerator/blob/main/doc/_images/happy.gif?raw=true)
 
