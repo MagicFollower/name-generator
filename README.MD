@@ -25,3 +25,6 @@
   
 #### 二、如何添加你自己喜欢的Name到词库?
 你可以使用test目录下的 `com.ng.core.AddNewNameTest`，那是一个丰富词库的自动化工具🔧
+
+<br>
+<br>
