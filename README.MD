@@ -6,7 +6,7 @@
 
 
 
-#### 如何使用它？
+#### 一、如何使用它？
 
 `get(): String`
 
@@ -21,19 +21,7 @@
 - `NameGenerator.NameFormat.UPPERCASE` 
   - "MALINDA ELIZABETH"
 
-
-
-
-
-<br/>
-
-<br/>
-
-<br/>
-
-
-
-#### 建库寄语：一定要开心😊
-
- ![](https://github.com/MagicFollower/NameGenerator/blob/main/doc/_images/happy.gif?raw=true)
-
+<br>
+  
+#### 二、如何添加你自己喜欢的Name到词库?
+你可以使用test目录下的 `com.ng.core.AddNewNameTest`，那是一个丰富词库的自动化工具🔧
