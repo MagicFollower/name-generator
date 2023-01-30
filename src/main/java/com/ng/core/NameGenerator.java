@@ -17,14 +17,31 @@ public class NameGenerator {
     static final String maleNameFile = "male.data";
     static List<String> mWords, fWords;
 
+    /**
+     * Get random name with random sex.
+     *
+     * @return name like "Tomas Kiki"
+     */
     public static String get() {
         return get(ThreadLocalRandom.current().nextBoolean());
     }
 
+    /**
+     * Get random name with specific sex
+     *
+     * @param female if you want to get a female name, set it true
+     * @return name like "Tomas Kiki"
+     */
     public static String get(boolean female) {
         return get(female, NameFormat.COMMON);
     }
 
+    /**
+     *
+     * @param female if you want to get a female name, set it true
+     * @param nameFormat three name-format, you can read {@link NameFormat}
+     * @return one specific name
+     */
     public static String get(boolean female, NameFormat nameFormat) {
         if (female && fWords == null) {
             synchronized (NameGenerator.class) {
@@ -54,6 +71,11 @@ public class NameGenerator {
         return fullName;
     }
 
+    /**
+     * COMMON    ➡️ "Tomas Kiki"
+     * LOWERCASE ➡️ "tomas kiki"
+     * UPPERCASE ➡️ "TOMAS KIKI"
+     */
     public enum NameFormat {
         COMMON, LOWERCASE, UPPERCASE
     }

@@ -3,6 +3,11 @@ package com.ng.core;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * API test
+ *
+ * @author trivis
+ */
 public class NameGeneratorTest {
 
     @Test
