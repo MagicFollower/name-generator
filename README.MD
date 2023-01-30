@@ -8,11 +8,11 @@
 
 #### 如何使用它？
 
-`getName(): String`
+`get(): String`
 
-`getName(boolean female): String`
+`get(boolean female): String`
 
-`getName(boolean female, NameFormat nameFormat): String`
+`get(boolean female, NameFormat nameFormat): String`
 
 - `NameGenerator.NameFormat.COMMON` 
   - "Malinda Elizabeth"
