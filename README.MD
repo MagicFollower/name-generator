@@ -1,12 +1,12 @@
 ## NameGenerator
 
-🔥还在为你的英文昵称而发愁吗？快让NameGenerator帮你生成一个！
+🔥Here, you can get a random English name🔥
 
 <br/>
 
 
 
-#### 一、如何使用它？
+#### 一、How to use it？
 
 `get(): String`
 
@@ -23,8 +23,8 @@
 
 <br>
   
-#### 二、如何添加你自己喜欢的Name到词库?
-你可以使用test目录下的 `com.ng.core.AddNewNameTest`，那是一个丰富词库的自动化工具🔧
+#### 二、How to enrich the name repository?
+You can use class `com.ng.core.AddNewNameTest` in TEST directory，it's a tool that can help you do it.🔧
 
 <br>
 <br>
